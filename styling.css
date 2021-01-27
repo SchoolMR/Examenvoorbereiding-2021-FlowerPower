@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+#shell-header {
+    display: flex;
+    height: 100px;
+    background-color: var(--mrGreenBg);
+    font-family: TexGyreBold;
+}
+
+#shell-header > .logo-cont {
+    padding: 1rem;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#shell-header > .logo-cont img {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    object-position: center;
+}
+
+#shell-header > .header {
+    padding: 1rem;
+    width: calc(100% - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid green;
+}
+
+#shell-header > .header h1
+{
+    color: white;
+    text-shadow: 2px 2px var(--mrGreenHover);
+}
+
+#shell-page {
+    display: flex;
+    height: calc(100vh - 99px);
+    margin-top: -1px;
+}
+
+#shell-page > #shell-navigation {
+    border-right: 1px solid green;
+    display: block;
+}
+
+#shell-navigation {
+
+    background-color: var(--mrGreenBg);
+}
+
+#shell-navigation ul {
+    list-style: none;
+    padding-left: 0;
+    width: 200px;
+}
+
+#shell-navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+#shell-navigation a
+{
+    font-family: TexGyreBold;
+    color: white;
+    text-shadow: 2px 2px var(--mrGreenHover);
+}
+
+/*
+#shell-navigation ul li:last-child a {
+    border-bottom: 1px solid green;
+}
+*/
+
+#shell-navigation ul li a:hover {
+    color: white;
+    background-color: var(--mrGreenHover);
+}
+
+#shell-page > #page-display {
+    position: relative;
+    display: block;
+    height: calc(100vh - 100px);
+    overflow: auto;
+    padding: 1rem;
+}
+
+#page-display
+{
+    color: black;
+    font-family: TexGyre;
+}
+
+#mainpage-img
+{
+    width: calc(100vh - 100px);
+    float: right;
+    border: 2px solid black;
+    box-shadow: 1px 1px black;
+}

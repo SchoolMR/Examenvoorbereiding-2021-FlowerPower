@@ -1,0 +1,31 @@
+:root
+{
+    /* Mr staat voor Mike Reule */
+    --mrGreen: #65ab81;
+    --mrGreenBg: #3ca666;
+    --mrGreenHover: #2e9457;
+}
+
+@font-face
+{
+    font-family: OCR;
+    src: url(fonts/ocr-a.otf);
+}
+
+@font-face
+{
+    font-family: OCRBold;
+    src: url(fonts/ocr-a-bold.otf);
+}   
+
+@font-face
+{
+    font-family: TexGyre;
+    src: url(fonts/texgyreadventor-regular.otf);
+}
+
+@font-face
+{
+    font-family: TexGyreBold;
+    src: url(fonts/texgyreadventor-bold.otf);
+}
